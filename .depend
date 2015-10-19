@@ -1,0 +1,12 @@
+set1_challenge8.o: set1_challenge8.cpp hex.h identify.h xor.h
+identify.o: identify.cpp identify.h xor.h
+xor.o: xor.cpp xor.h
+set1_challenge5.o: set1_challenge5.cpp xor.h hex.h
+set1_challenge4.o: set1_challenge4.cpp hex.h identify.h xor.h
+set1_challenge1.o: set1_challenge1.cpp b64.h hex.h
+hex.o: hex.cpp hex.h
+set1_challenge3.o: set1_challenge3.cpp hex.h xor.h identify.h
+set1_challenge7.o: set1_challenge7.cpp b64.h
+b64.o: b64.cpp b64.h
+set1_challenge2.o: set1_challenge2.cpp hex.h xor.h
+set1_challenge6.o: set1_challenge6.cpp b64.h identify.h xor.h hex.h
